@@ -19,7 +19,11 @@ class User extends Model {
       }
     );
 
+    // Hooks são trechos de código que são executados de forma automática
+    // de acordo com uma ação do model ou seja será executado antes de ir para
+    // o banco de dados ("beforeSave").
     this.addHook('beforeSave', async user => {
+      // gerando hash_password caso o usuário tenha inserido o password
       if (user.password) {
         user.password_hash = await bcrypt.hash(user.password, 8);
       }

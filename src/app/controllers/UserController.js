@@ -1,7 +1,10 @@
+// Registra usuários dentro da API
+
 import * as Yup from 'yup';
 import User from '../models/User';
 
 class UserController {
+  // Função para cadastrar novos usuários
   async store(req, res) {
     const schema = Yup.object().shape({
       name: Yup.string().required(),
@@ -17,6 +20,7 @@ class UserController {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
+    // Verifica se o email do usuário já existe
     const userExists = await User.findOne({ where: { email: req.body.email } });
 
     if (userExists) {
@@ -32,6 +36,7 @@ class UserController {
     });
   }
 
+  // Função para atualizar os dados dos usuários
   async update(req, res) {
     const schema = Yup.object().shape({
       name: Yup.string(),
