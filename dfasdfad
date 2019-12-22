@@ -1,0 +1,65 @@
+[33mcommit 1ad4812ed5850cbdfd0060e2f961d6edff556997[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Sat Dec 21 03:31:16 2019 -0300
+
+    chore: Começa o cadastro de usuários
+
+[33mcommit 418a46a8f280e0fcefcee666bf04f3cc7c353d3c[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Wed Dec 18 23:50:22 2019 -0300
+
+    chore: Ajeita o script do nodemon no package.json, cria o loader de models
+
+[33mcommit d8013eed5b1d289b241fd222457a91e5b5ffb250[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Wed Dec 18 22:13:50 2019 -0300
+
+    chore: Cria o model de usuário User.js
+
+[33mcommit 8bff40d43d64b0d1cd09747efb35dcc1792e5c88[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Wed Dec 18 21:53:18 2019 -0300
+
+    chore: Corrige a configuração de porta no arquivo database.js e faz a primeira migration de usuário para criar a tabale users
+
+[33mcommit b14af4184b6d88793bdff7cd89ae66bcc9479c72[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 22:58:35 2019 -0300
+
+    chore: Corrige um erro no eslintrc.js acrescentando um ignorePattern
+
+[33mcommit 5c34d85cb98bc00686918057ebddbca9cdfa5798[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 22:36:44 2019 -0300
+
+    chore: Configura o sequelize
+
+[33mcommit 5789927b59c71bd55c3caf199a0c84424ac0ec0c[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 21:46:01 2019 -0300
+
+    chore: Adiciona e configura o EditorConfig
+
+[33mcommit 349fb46fa919d4a040ecfde591ee1854c1aa72f5[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 21:43:17 2019 -0300
+
+    chore: Configura o Prettier e faz a integração com o ESLint
+
+[33mcommit aa7c53915d4d1004045717c8dfcb30eabce6665f[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 21:34:12 2019 -0300
+
+    chore: Configura o autofix do ESLint
+
+[33mcommit 7644e7eab7130b73541938a941d8126cd90c68bb[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Tue Dec 17 21:19:49 2019 -0300
+
+    chore: Configura o ESLint com o padrão de códigos da Airbnb
+
+[33mcommit e164f766c2bac1bca275f5872a9d23a9b71a7b2c[m
+Author: AndersonCMelo <andersonmelo13@gmail.com>
+Date:   Mon Dec 16 21:33:47 2019 -0300
+
+    Commit inicial + configuração do nodemon e do sucrase
